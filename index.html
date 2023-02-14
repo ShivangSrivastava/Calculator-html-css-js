@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" name="box" id="box">
+        </div>
+        <div class="row">
+            <button class="gray" onclick = "clicked(this)">C</button>
+            <button class="gray" onclick = "clicked(this)">&#9003;</button>
+            <button class="gray" onclick = "clicked(this)">%</button>
+            <button class="orange" onclick = "clicked(this)">&#247;</button>
+        </div>
+        <div class="row">
+            <button onclick = "clicked(this)">7</button>
+            <button onclick = "clicked(this)">8</button>
+            <button onclick = "clicked(this)">9</button>
+            <button class="orange" onclick = "clicked(this)">&times;</button>
+        </div>
+        <div class="row">
+            <button onclick = "clicked(this)">4</button>
+            <button onclick = "clicked(this)">5</button>
+            <button onclick = "clicked(this)">6</button>
+            <button class="orange" onclick = "clicked(this)">-</button>
+        </div>
+        <div class="row">
+            <button onclick = "clicked(this)">1</button>
+            <button onclick = "clicked(this)">2</button>
+            <button onclick = "clicked(this)">3</button>
+            <button onclick = "clicked(this)" class="orange">+</button>
+        </div>
+        <div class="row">
+            <button onclick = "clicked(this)" name="zero">0</button>
+            <button onclick = "clicked(this)">.</button>
+            <button onclick = "clicked(this)" class="orange">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
